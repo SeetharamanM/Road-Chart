@@ -185,15 +185,19 @@
     tab.addEventListener('click', () => showPanel(tab.dataset.tab));
   });
 
+  function applyLoadedCSV(data, sourceName) {
+    loaded = data;
+    loadStatus.textContent = sourceName ? 'Loaded: ' + sourceName + ' (' + loaded.rows.length + ' rows)' : loaded.rows.length + ' rows';
+    loadStatus.classList.add('loaded');
+  }
+
   csvFile.addEventListener('change', (e) => {
     const file = e.target.files[0];
     if (!file) return;
     const reader = new FileReader();
     reader.onload = (ev) => {
       try {
-        loaded = parseCSV(ev.target.result);
-        loadStatus.textContent = 'Loaded: ' + file.name + ' (' + loaded.rows.length + ' rows)';
-        loadStatus.classList.add('loaded');
+        applyLoadedCSV(parseCSV(ev.target.result), file.name);
       } catch (err) {
         loadStatus.textContent = 'Error: ' + err.message;
         loadStatus.classList.remove('loaded');
@@ -201,6 +205,21 @@
     };
     reader.readAsText(file, 'UTF-8');
   });
+
+  // Load default data file when served from same origin
+  function loadDefaultCSV() {
+    const names = ['Road Chart.csv', 'Road Chart.CSV'];
+    function tryNext(i) {
+      if (i >= names.length) { loadStatus.textContent = 'Load a CSV file or open this app from a server to use default data.'; return; }
+      fetch(names[i]).then(r => {
+        if (r.ok) return r.text();
+        throw new Error('Not found');
+      }).then(text => { applyLoadedCSV(parseCSV(text), names[i]); })
+        .catch(() => tryNext(i + 1));
+    }
+    tryNext(0);
+  }
+  loadDefaultCSV();
 
   extractBtn.addEventListener('click', () => {
     const year = parseYear(yearInput.value);

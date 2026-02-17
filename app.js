@@ -414,6 +414,13 @@
     showPanel('data');
   });
 
+  function applyLoadedCSV(rows, columns, sourceName) {
+    loadedData = rows;
+    loadedColumns = columns;
+    loadStatus.textContent = sourceName ? `Loaded: ${sourceName} (${rows.length} rows, ${columns.length} columns)` : `${rows.length} rows, ${columns.length} columns`;
+    loadStatus.classList.add('loaded');
+  }
+
   csvFile.addEventListener('change', (e) => {
     const file = e.target.files[0];
     if (!file) return;
@@ -421,10 +428,7 @@
     reader.onload = (ev) => {
       try {
         const { rows, columns } = parseCSV(ev.target.result);
-        loadedData = rows;
-        loadedColumns = columns;
-        loadStatus.textContent = `Loaded: ${file.name} (${rows.length} rows, ${columns.length} columns)`;
-        loadStatus.classList.add('loaded');
+        applyLoadedCSV(rows, columns, file.name);
       } catch (err) {
         loadStatus.textContent = 'Error: ' + err.message;
         loadStatus.classList.remove('loaded');
@@ -432,6 +436,23 @@
     };
     reader.readAsText(file, 'UTF-8');
   });
+
+  // Load default data file when served from same origin (e.g. Netlify, local server)
+  function loadDefaultCSV() {
+    const names = ['Road Chart.csv', 'Road Chart.CSV'];
+    function tryNext(i) {
+      if (i >= names.length) { loadStatus.textContent = 'Load a CSV file or open this app from a server to use default data.'; return; }
+      fetch(names[i]).then(r => {
+        if (r.ok) return r.text();
+        throw new Error('Not found');
+      }).then(text => {
+        const { rows, columns } = parseCSV(text);
+        applyLoadedCSV(rows, columns, names[i]);
+      }).catch(() => tryNext(i + 1));
+    }
+    tryNext(0);
+  }
+  loadDefaultCSV();
 
   // Default query
   queryInput.value = 'SELECT Road_No, "Name of road", Scheme, Year FROM data WHERE Scheme = \'CRIDP\' ORDER BY Year LIMIT 10';
