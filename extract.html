@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Extract by Completed Year</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <h1>Extract by Completed Year</h1>
+      <p class="tagline">List data where Completed Year &lt; input year, with length of stretch per road and total length</p>
+      <a href="index.html" class="nav-link">← Query Analyzer</a>
+    </header>
+
+    <main class="main">
+      <section class="query-section">
+        <div class="section-header">
+          <h2>Filter &amp; data</h2>
+          <div class="actions">
+            <label class="file-label">
+              <input type="file" id="csvFile" accept=".csv" hidden />
+              Load CSV
+            </label>
+            <button type="button" id="extractBtn" class="btn btn-primary">Extract</button>
+          </div>
+        </div>
+        <div class="year-row">
+          <label for="yearInput">Completed Year &lt;</label>
+          <input type="number" id="yearInput" class="year-input" placeholder="e.g. 2020" min="1900" max="2100" value="2020" />
+        </div>
+        <div id="loadStatus" class="load-status"></div>
+      </section>
+
+      <section class="results-section">
+        <div class="tabs">
+          <button type="button" class="tab active" data-tab="summary">By road</button>
+          <button type="button" class="tab" data-tab="data">All matching rows</button>
+        </div>
+
+        <div id="summaryPanel" class="panel active">
+          <h3>Length of stretch per road (Completed Year &lt; <span id="yearLabel">—</span>)</h3>
+          <div id="summaryOutput" class="data-output">
+            <p class="hint">Load a CSV and click Extract.</p>
+          </div>
+          <div id="totalLength" class="total-length"></div>
+          <div id="reportActions" class="report-actions" style="display: none;">
+            <button type="button" id="printReportBtn" class="btn btn-secondary">Print report</button>
+            <button type="button" id="downloadReportBtn" class="btn btn-primary">Download report (HTML)</button>
+          </div>
+        </div>
+
+        <div id="dataPanel" class="panel">
+          <h3>Matching data</h3>
+          <div id="dataOutput" class="data-output">
+            <p class="hint">Load a CSV and click Extract.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="extract.js"></script>
+</body>
+</html>

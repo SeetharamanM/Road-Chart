@@ -1,0 +1,10 @@
+# Netlify configuration for Road Chart (static site)
+[build]
+  publish = "."
+  # No build command – static HTML/CSS/JS only
+
+# Optional: pretty URLs (e.g. /extract instead of /extract.html)
+[[redirects]]
+  from = "/extract"
+  to = "/extract.html"
+  status = 200

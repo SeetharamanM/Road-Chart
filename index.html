@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Query Language Analyzer</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <h1>Query Language Analyzer</h1>
+      <p class="tagline">Parse, analyze, and run SQL-style queries against your data</p>
+      <a href="extract.html" class="nav-link">Extract by Completed Year →</a>
+    </header>
+
+    <main class="main">
+      <section class="query-section">
+        <div class="section-header">
+          <h2>Query</h2>
+          <div class="actions">
+            <label class="file-label">
+              <input type="file" id="csvFile" accept=".csv" hidden />
+              Load CSV
+            </label>
+            <button type="button" id="analyzeBtn" class="btn btn-primary">Analyze</button>
+            <button type="button" id="runBtn" class="btn btn-secondary">Run on data</button>
+          </div>
+        </div>
+        <textarea id="queryInput" class="query-input" placeholder="Enter a SQL query, e.g.&#10;SELECT Road_No, \"Name of road\" FROM data WHERE Scheme = 'CRIDP' ORDER BY Year LIMIT 10"></textarea>
+        <div id="loadStatus" class="load-status"></div>
+      </section>
+
+      <section class="results-section">
+        <div class="tabs">
+          <button type="button" class="tab active" data-tab="analysis">Analysis</button>
+          <button type="button" class="tab" data-tab="tokens">Tokens</button>
+          <button type="button" class="tab" data-tab="data">Data</button>
+        </div>
+
+        <div id="analysisPanel" class="panel active">
+          <h3>Query analysis</h3>
+          <div id="analysisOutput" class="analysis-output"></div>
+        </div>
+
+        <div id="tokensPanel" class="panel">
+          <h3>Token stream</h3>
+          <div id="tokensOutput" class="tokens-output"></div>
+        </div>
+
+        <div id="dataPanel" class="panel">
+          <h3>Query results</h3>
+          <div id="dataOutput" class="data-output">
+            <p class="hint">Load a CSV and click "Run on data" to execute the query.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

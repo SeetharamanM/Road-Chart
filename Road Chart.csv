@@ -1,0 +1,106 @@
+Road_No,Name of road,Total Stretch,Total Length,Start_KM,End_KM,Length,Stretch,Year,Scheme,Started Year,Completed Year,Work Type
+SH-154,Peraiyur Road,Km 14/4-37/0,22.6,14.4,24,9.6,KM 14/0 - 24/0,Before 2015-16,,2015,2016,
+SH-154,Peraiyur Road,Km 14/4-37/0,22.6,24,25,1,KM 24/0 - 25/0,CRIDP 2017-18,CRIDP,2017,2018,Strengthening
+SH-154,Peraiyur Road,Km 14/4-37/0,22.6,25,26,1,KM 25/0 - 26/0,CRIDP 2017-18,CRIDP,2017,2018,Strengthening
+SH-154,Peraiyur Road,Km 14/4-37/0,22.6,26,27,1,KM 26/0 - 27/0,Before 2015-16,,2015,2016,
+SH-154,Peraiyur Road,Km 14/4-37/0,22.6,27,30,3,KM 27/0 - 30/0,CRIDP 2017-18,CRIDP,2017,2018,Strengthening
+SH-154,Peraiyur Road,Km 14/4-37/0,22.6,30,34,4,KM 30/0 - 34/0,CRIDP 2015-16,CRIDP,2015,2016,Strengthening
+SH-154,Peraiyur Road,Km 14/4-37/0,22.6,34,35.6,1.6,KM 34/0 - 35/6,Before 2015-16,,2015,2016,
+SH-154,Peraiyur Road,Km 14/4-37/0,22.6,35.6,37,1.4,KM 35/6 - 37/0,CRIDP 2015-16,CRIDP,2015,2016,Strengthening
+SH-73A,TMM-Usilampatti road,Km 12/8-26/075,13.275,12.8,15,2.2,KM 12/8 - 15/0,Before 2015-16,,2015,2016,
+SH-73A,TMM-Usilampatti road,Km 12/8-26/075,13.275,15,18,3,KM 15/0 - 18/0,CRIDP 2015-16,CRIDP,2015,2016,Strengthening
+SH-73A,TMM-Usilampatti road,Km 12/8-26/075,13.275,18,21,3,KM 18/0 - 21/0,SRPR 2015-16,SRPR,2015,2016,IRQP
+SH-73A,TMM-Usilampatti road,Km 12/8-26/075,13.275,21,23,2,KM 21/0 - 23/0,Before 2015-16,,2015,2016,
+SH-73A,TMM-Usilampatti road,Km 12/8-26/075,13.275,23,26,3,KM 23/0 - 26/0,CRIDP 2016-17,CRIDP,2016,2017,Strengthening
+MDR-104,Elumalai road ,Km 0/0-12/8,12.8,0,1,1,KM 0/0 - 1/0,CRIDP 2024-25,CRIDP,2024,2025,Strengthening
+MDR-104,Elumalai road ,Km 0/0-12/8,12.8,1,5,4,KM 1/0 - 5/0,CRIDP 2021-22,CRIDP,2021,2022,Strengthening
+MDR-104,Elumalai road ,Km 0/0-12/8,12.8,5,7,2,KM 5/0 - 7/0,CRIDP 2020-21,CRIDP,2020,2021,Strengthening
+MDR-104,Elumalai road ,Km 0/0-12/8,12.8,7,10.6,3.6,KM 7/0 - 10/6,CRIDP 2022-23,CRIDP,2022,2023,Strengthening
+MDR-104,Elumalai road ,Km 0/0-12/8,12.8,10.6,11,0.4,KM 10/6 - 11/0,CRIDP 2020-21,CRIDP,2020,2021,Strengthening
+MDR-104,Elumalai road ,Km 0/0-12/8,12.8,11,12.6,1.6,KM 11/0 - 12/6,SRPR 2022-23,SRPR,2022,2023,IRQP
+MDR-104,Elumalai road ,Km 0/0-12/8,12.8,12.6,12.8,0.2,KM 12/6 - 12/8,SRPR 2020-21,SRPR,2020,2021,IRQP
+MDR-721,Olaipatti road,Km 0/0-12/8,12.8,8.312,18.927,10.615,KM 8/312 - 18/615,CRIDP 2023-24,CRIDP,2023,2024,IRQP
+MDR-613,Kokkulam- Uthappanaickanur road ,Km 0/0-29/2,29.2,0,0.2,0.2,KM 0/0 - 0/2,CRIDP 2015-16,CRIDP,2015,2016,Strengthening
+MDR-613,Kokkulam- Uthappanaickanur road ,Km 0/0-29/2,29.2,0.2,2,1.8,KM 0/2 - 2/0,CRIDP 2021-22,CRIDP,2021,2022,IRQP
+MDR-613,Kokkulam- Uthappanaickanur road ,Km 0/0-29/2,29.2,2,3.8,1.8,KM 2/0 - 7/6,CRIDP 2018-19,CRIDP,2018,2019,Strengthening
+MDR-613,Kokkulam- Uthappanaickanur road ,Km 0/0-29/2,29.2,3.8,5,5.4,KM 2/0 - 7/6,CRIDP 2025-26,CRIDP,2025,2026,Wdg & Stg
+MDR-613,Kokkulam- Uthappanaickanur road ,Km 0/0-29/2,29.2,5,7.4,2.4,KM 2/0 - 7/6,CRIDP 2018-19,CRIDP,2018,2019,Strengthening
+MDR-613,Kokkulam- Uthappanaickanur road ,Km 0/0-29/2,29.2,7.4,21,13.6,KM 7/6 - 21/0,CRF 2017-18,CRF,2017,2018,Wdg & Stg
+MDR-613,Kokkulam- Uthappanaickanur road ,Km 0/0-29/2,29.2,21,23,2,KM 21/0 - 23/0,CRIDP 2019-20,CRIDP,2019,2020,Strengthening
+MDR-613,Kokkulam- Uthappanaickanur road ,Km 0/0-29/2,29.2,23,29.2,6.2,KM 23/0 - 29/2,CRIDP 2018-19,CRIDP,2018,2019,Strengthening
+MDR-721,Thum-Ulaipatti road,Km 8/312-18/927,10.615,8.312,18.927,10.615,KM 8/312 - 18/615,CRIDP 2023-24,CRIDP,2023,2024,IRQP
+MDR-961,Padees-Pannikundu,Km 0/0-2/6,2.6,0,2.6,2.6,KM 0/0 - 2/6,SRPR 2023-24,SRPR,2023,2024,IRQP
+MDR-954,Chithalai-Thidiyan,Km 17/0-19/0,2,17,19.2,2.2,KM 17/0 - 19/2,CRIDP 2018-19,CRIDP,2018,2019,Strengthening
+O-7089,Thumm-Nalluthevanpatti road,Km 0/0-11/357,11.357,0,0.8,0.8,KM 0/0 - 0/8,CRIDP 2017-18,CRIDP,2017,2018,Strengthening
+O-7089,Thumm-Nalluthevanpatti road,Km 0/0-11/357,11.357,0.8,3.4,2.6,KM 0/8 - 3/4,CRIDP 2019-20,CRIDP,2019,2020,Strengthening
+O-7089,Thumm-Nalluthevanpatti road,Km 0/0-11/357,11.357,3.4,4.6,1.2,KM 3/4 - 4/6,CRIDP 2017-18,CRIDP,2017,2018,Strengthening
+O-7089,Thumm-Nalluthevanpatti road,Km 0/0-11/357,11.357,4.6,6,1.4,KM 4/6 - 6/0,CRIDP 2019-20,CRIDP,2019,2020,Strengthening
+O-7089,Thumm-Nalluthevanpatti road,Km 0/0-11/357,11.357,6,9.4,3.4,KM 6/0 - 9/4,CRIDP 2017-18,CRIDP,2017,2018,Strengthening
+O-7089,Thumm-Nalluthevanpatti road,Km 0/0-11/357,11.357,9.4,11.357,1.957,KM 9/4 - 11/357,CRIDP 2019-20,CRIDP,2019,2020,Strengthening
+O-3171,Kovilankulam-Thimmanatham,Km 4/2-13/8,9.6,4.2,6,1.8,KM 4/2 - 6/0,CRIDP 2019-20,CRIDP,2019,2020,Strengthening
+O-3171,Kovilankulam-Thimmanatham,Km 4/2-13/8,9.6,6,11,5,KM 6/0 - 11/0,CRIDP 2022-23,CRIDP,2022,2023,IRQP
+O-3171,Kovilankulam-Thimmanatham,Km 4/2-13/8,9.6,11,12.6,1.6,KM 11/0 - 12/6,CRIDP 2019-20,CRIDP,2019,2020,Strengthening
+O-3171,Kovilankulam-Thimmanatham,Km 4/2-13/8,9.6,12.6,13.8,1.2,KM 12/6 - 13/8,SRPR 2019-20,SRPR,2019,2020,IRQP
+O-7479,Valandur-Pappapatti,Km 0/0-7/6,7.6,0,5,5,KM 0/0 - 5/0,CRIDP 2019-20,CRIDP,2019,2020,Strengthening
+O-7479,Valandur-Pappapatti,Km 0/0-7/6,7.6,5,7.6,2.6,KM 5/0 - 7/6,CRIDP 2025-26,CRIDP,2025,2026,Wdg & Stg
+O-6333,Sindhupatti-Nattamangalam,Km 0/0-7/048,7.048,0,1,1,KM 0/0 - 1/0,CRIDP 2019-20,CRIDP,2019,2020,Strengthening
+O-6333,Sindhupatti-Nattamangalam,Km 0/0-7/048,7.048,1,3,2,KM 1/0 - 3/0,CRIDP 2023-24,CRIDP,2023,2024,Wdg & Stg
+O-6333,Sindhupatti-Nattamangalam,Km 0/0-7/048,7.048,3,4,1,KM 3/0 - 4/0,CRIDP 2019-20,CRIDP,2019,2020,Strengthening
+O-6333,Sindhupatti-Nattamangalam,Km 0/0-7/048,7.048,4,5,1,KM 4/0 - 5/0,CRIDP 2018-19,CRIDP,2018,2019,Strengthening
+O-6333,Sindhupatti-Nattamangalam,Km 0/0-7/048,7.048,5,7.248,2.248,KM 5/0 - 7/248,CRIDP 2019-20,CRIDP,2019,2020,Strengthening
+O-1237,Edayapatti-Duraisamipurampudur,Km 0/0-5/0,5,0,1,1,KM 0/0 - 1/0,CRIDP 2019-20,CRIDP,2019,2020,Strengthening
+O-1237,Edayapatti-Duraisamipurampudur,Km 0/0-5/0,5,1,5,4,KM 1/0 - 5/0,CRIDP 2018-19,CRIDP,2018,2019,Strengthening
+O-1680,K.Paraipatti-Mayakurumbanpatti,Km 0/0-4/8,4.8,0,2,2,KM 0/0 - 2/0,CRIDP 2018-19,CRIDP,2018,2019,Strengthening
+O-1680,K.Paraipatti-Mayakurumbanpatti,Km 0/0-4/8,4.8,2,4.8,2.8,KM 2/0 - 4/8,CRIDP 2019-20,CRIDP,2019,2020,Strengthening
+O-2918,Kodanginaickenpatti-Melathirumanic,Km 0/0-4/645,4.645,0,4.645,4.645,KM 0/0 - 4/645,SRPR 2023-24,SRPR,2023,2024,Strengthening
+O-147,Allikundam-Rajakkapatti,Km 0/0-4/645,4.645,0,1,1,KM 0/0 - 1/0,CRIDP 2019-20,CRIDP,2019,2020,Strengthening
+O-147,Allikundam-Rajakkapatti,Km 0/0-4/645,4.645,1,4.6,3.6,KM 1/0 - 4/6,CRIDP 2021-22,CRIDP,2021,2022,Strengthening
+O-804,Pasukaranpatti-Kakkiveeranpatti,Km 0/0-4/2,4.2,0,1.6,1.6,KM 0/0 - 1/6,CRIDP 2022-23,CRIDP,2022,2023,Wdg & Stg
+O-804,Pasukaranpatti-Kakkiveeranpatti,Km 0/0-4/2,4.2,1.6,2.2,0.6,KM 1/6 - 2/2,CRIDP 2016-17,CRIDP,2016,2017,Strengthening
+O-804,Pasukaranpatti-Kakkiveeranpatti,Km 0/0-4/2,4.2,2.2,3.4,1.2,KM 2/2 - 3/4,SRPR 2017-18,SRPR,2017,2018,Strengthening
+O-804,Pasukaranpatti-Kakkiveeranpatti,Km 0/0-4/2,4.2,3.4,4.2,0.8,KM 3/4 - 4/2,CRIDP 2016-17,CRIDP,2016,2017,Strengthening
+O-840,Chellampatti-Thidiyan,Km 1/0-4/087,3.087,1,4.087,3.087,KM 1/0 - 4/087,CRIDP 2019-20,CRIDP,2019,2020,Strengthening
+O-472,Ariyapatti-Paluthupatti,Km 0/0-3/895,3.895,0,4.065,4.065,KM 0/0 - 4/065,SRPR 2024-25,SRPR,2024,2025,Strengthening
+O-4376,Nattapatti-Kondampatti,Km 0/0-3/720,3.72,0,3.72,3.72,KM 0/0 - 3/372,CRIDP 2018-19,CRIDP,2018,2019,Strengthening
+O-3878,Mela-Perungamanallur,Km 0/0-3/323,3.323,0,3.323,3.323,KM 0/0 - 3/323,SRPR 2023-24,SRPR,2023,2024,Strengthening
+O-7435,Vagurani Road,Km 0/0-3/2,3.2,0,3.2,3.2,KM 0/0 - 3/2,CRIDP 2019-20,CRIDP,2019,2020,Strengthening
+O-2198,Kattakaruppanpatti Road,Km 0/0-2/8,2.8,0,1,1,KM 0/0 - 1/0,SRPR 2020-21,SRPR,2020,2021,IRQP
+O-2198,Kattakaruppanpatti Road,Km 0/0-2/8,2.8,1,2.8,1.8,KM 1/0 - 2/8,SRPR 2022-23,SRPR,2022,2023,IRQP
+O-1854,Kallapatti road,Km 0/0-2/8,2.8,0,2.8,2.8,KM 0/0 - 2/8,SRPR 2023-24,SRPR,2023,2024,Strengthening
+O-4354,Nariampatti road,Km 0/0-2/6,2.6,0,2.6,2.6,KM 0/0 - 2/6,SRPR 2022-23,SRPR,2022,2023,IRQP
+O-7336,V.Perumalpatti road,Km 0/0-2/4,2.4,0,2.4,2.4,KM 0/0 - 2/4,CRIDP 2016-17,CRIDP,2016,2017,Strengthening
+O-1873,Kalluthu-Seemanuthu road,Km 0/0-2/2,2.2,0,1,1,KM 0/0 - 1/0,CRIDP 2019-20,CRIDP,2019,2020,Strengthening
+O-1873,Kalluthu-Seemanuthu road,Km 0/0-2/2,2.2,1,2.2,1.2,KM 1/0 - 2/2,CRIDP 2022-23,CRIDP,2022,2023,IRQP
+O-6871,Thimmanatham-Lingappanaickanur,Km 0/0-2/020,2.02,0,1.6,1.6,KM 0/0 - 1/6,SRPR 2022-23,SRPR,2022,2023,IRQP
+O-6871,Thimmanatham-Lingappanaickanur,Km 0/0-2/020,2.02,1.6,2.02,0.42,KM 1/6 - 2/020,Before 2015-16,,2015,2016,
+O-7090,Thummalapatti road,Km 0/0-2/020,2,0,2,2,KM 0/0 - 2/0,CRIDP 2018-19,CRIDP,2018,2019,Strengthening
+O-786,Boothipuram road,Km 0/0-2/020,2,0,2,2,KM 0/0 - 2/0,CRIDP 2021-22,CRIDP,2021,2022,Strengthening
+O-805,Pasu-Kakki to Sirupatti road,Km 0/0-2/020,2,0,2,2,KM 0/0 - 2/0,SRPR 2022-23,SRPR,2022,2023,IRQP
+O-7415,Vadugapatti road,Km 0/0-1/8,1.8,0,1.2,1.2,KM 0/0 - 1/2,SRPR 2019-20,SRPR,2019,2020,IRQP
+O-7415,Vadugapatti road,Km 0/0-1/8,1.8,1.2,1.8,0.6,KM 1/2 - 1/8,Before 2015-16,,2015,2016,
+O-7600,Meikilarpatti road,Km 0/0-1/8,1.8,0,1.8,1.8,KM 0/0 - 1/8,SRPR 2022-23,SRPR,2022,2023,IRQP
+O-2311,Keelapatti road,Km 0/0-1/6,1.6,0,1.6,1.6,KM 0/0 - 1/6,CRIDP 2018-19,CRIDP,2018,2019,Strengthening
+O-3455,Ambasamusram Road,Km 0/0-1/6,1.6,0,1.6,1.6,KM 0/0 - 1/6,SRPR 2025-26,CRIDP,2025,2026,Improvement
+O-6931,Panniyan road,Km 0/0-1/6,1.6,0,1.6,1.6,KM 0/0 - 1/6,SRPR 2025-26,SRPR,2025,2026,Improvement
+O-282,Andipatti road,Km 0/0-1/4,1.4,0,1.4,1.4,KM 0/0 - 1/4,SRPR 2024-25,SRPR,2024,2025,Renewal
+O-10271,Uthappanaickanur-Koppilipatti road,Km 0/0-0/8,0.8,2,5.8,3.8,KM 2/0 - 5/8,Upgrd 2019-20,Upgrd,2019,2020,Strengthening
+O-10273,Perumalkovilpatti-periyapalarpatti,Km 0/0-2/0,2,0,2,2,KM 0/0 - 2/0,Upgrd 2019-20,Upgrd,2019,2020,Strengthening
+O-10272,Pasukkaranpatti road,Km 0/0-1/0,1,0,1,1,KM 0/0 - 1/0,Upgrd 2019-20,Upgrd,2019,2020,Strengthening
+O-10270,Veerapandi-Vinnakkudi road,Km 0/0-1/020,1.02,0,1.02,1.02,KM 0/0 - 1/02,Upgrd 2019-20,Upgrd,2019,2020,Strengthening
+O-10269,Chell-Vikkir to Vadugapatti road,Km 0/0-1/0,1,0,1,1,KM 0/0 - 1/0,Upgrd 2019-20,Upgrd,2019,2020,Strengthening
+O-7313,Uthappanaickanur - Peranai road,Km 7/8-8/8,1,7.8,8.8,1,KM 7/8 - 8/8,CRIDP 2024-25,CRIDP,2024,2025,Wdg & Stg
+O-1674,Jothilnaickanur road,Km 0/0-1/0,1,0,1,1,KM 0/0-1/0,SRPR 2019-20,SRPR,2019,2020,IRQP
+O-5394,Pudukottai- Mupidarpatti road,Km 0/0-1/0,1,0,1,1,KM 0/0-1/0,CRIDP 2020-21,CRIDP,2020,2021,Strengthening
+O-7063,Thottapanaickanur road,Km 0/0-1/0,1,0,1,1,KM 0/0-1/0,SRPR 2020-21,SRPR,2020,2021,IRQP
+O-1681,K.Paraipatti road,Km 0/0-1/0,1,0,1,1,KM 0/0-1/0,CRIDP 2019-20,CRIDP,2019,2020,Strengthening
+O-3094,Koppilipatti - Pappapatti road,Km 0/0-1/0,1,0,1,1,KM 0/0-1/0,SRPR 2019-20,SRPR,2019,2020,IRQP
+O-806,Pasukkaranpatti - V.Kamatchipuram road,Km 0/0-0/900,0.9,0,0.9,0.9,KM 0/0-0/9,CRIDP 2020-21,CRIDP,2020,2021,Strengthening
+O-661,Ayyanarkulam road,Km 0/0-0/8,0.8,0,0.8,0.8,KM 0/0-0/8,CRIDP 2020-21,CRIDP,2020,2021,Strengthening
+O-7311,Mondikundu road,Km 0/0-0/8,0.8,0,0.8,0.8,KM 0/0-0/8,CRIDP 2020-21,CRIDP,2020,2021,Strengthening
+O-7842,Vikkiramangalam - Nathampatti road,Km 0/0-10/300,10.3,0,2,2,KM 0/0-2/0,SRPR 2018-19,SRPR,2018,2019,IRQP
+O-7842,Vikkiramangalam - Nathampatti road,Km 0/0-10/300,10.3,2,3,1,KM 2/0-3/0,CRIDP 2021-22,CRIDP,2021,2022,IRQP
+O-7842,Vikkiramangalam - Nathampatti road,Km 0/0-10/300,10.3,3,4,1,KM 3/0-4/0,CRIDP 2018-19,CRIDP,2018,2019,IRQP
+O-7842,Vikkiramangalam - Nathampatti road,Km 0/0-10/300,10.3,4,5,1,KM 4/0-5/0,SRPR 2018-19,SRPR,2018,2019,IRQP
+O-7842,Vikkiramangalam - Nathampatti road,Km 0/0-10/300,10.3,5,7,2,KM 5/0-7/0,CRIDP 2021-22,CRIDP,2021,2022,Strengthening
+O-7842,Vikkiramangalam - Nathampatti road,Km 0/0-10/300,10.3,7,8,1,KM 7/0-8/0,CRIDP 2023-24,CRIDP,2023,2024,Wdg & Stg
+O-7842,Vikkiramangalam - Nathampatti road,Km 0/0-10/300,10.3,8,10.3,2.3,KM 8/0-10/3,CRIDP 2021-22,CRIDP,2021,2022,IRQP
