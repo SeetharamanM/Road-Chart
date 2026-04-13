@@ -53,6 +53,13 @@ body {
   font-size: 0.95rem;
 }
 
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  margin-top: 0.5rem;
+}
+
 .nav-link {
   display: inline-block;
   font-size: 0.9rem;

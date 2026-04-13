@@ -25,9 +25,9 @@ Analyse data query language (SQL-style): parse queries, view tokens and structur
 1. Open `index.html` in a browser (double-click or **File → Open**).
 2. Or serve the folder with a local server, e.g.  
    `npx serve .`  
-   then open the URL shown (e.g. http://localhost:3000).
+   then open the URL shown (e.g. <http://localhost:3000>).
 
-## Usage
+### Query Analyzer Usage
 
 1. **Analyze** – Type a SQL query and click **Analyze** to see its structure and tokens.
 2. **Load CSV** – Click **Load CSV** and choose `Road Chart.csv` (or any CSV).
@@ -54,9 +54,28 @@ Extract rows where **Completed Year &lt; input year**, with:
 - **Total length** – sum of all matching stretch lengths
 - **All matching rows** – full data table in a second tab
 
-### Usage
+### Extract Tool Usage
 
 1. Open `extract.html`.
 2. Click **Load CSV** and choose `Road Chart.csv`.
 3. Enter a year (e.g. `2020`).
 4. Click **Extract**. View the “By road” summary and “All matching rows” tab.
+5. After extraction, use **Print report** to print the summary or **Download report (HTML)** to save the results as an HTML file.
+
+---
+
+## 3. Extract by Completed Year (Equal) (`equal-year.html`)
+
+Extract rows where **Completed Year = input year**, with:
+
+- **Length of stretch per road** – table of Road No, Name of road, total length (sum of `Length`), and number of stretches
+- **Total length** – sum of all matching stretch lengths
+- **All matching rows** – full data table in a second tab
+
+### Equal Year Tool Usage
+
+1. Open `equal-year.html`.
+2. Click **Load CSV** and choose `Road Chart.csv`.
+3. Enter a year (e.g. `2020`).
+4. Click **Extract**. View the "By road" summary and "All matching rows" tab.
+5. After extraction, use **Print report** to print the summary or **Download report (HTML)** to save the results as an HTML file.

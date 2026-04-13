@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Extract by Completed Year</title>
+  <title>Extract by Completed Year (Equal)</title>
   <link rel="stylesheet" href="styles.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,11 +12,11 @@
 <body>
   <div class="app">
     <header class="header">
-      <h1>Extract by Completed Year</h1>
-      <p class="tagline">List data where Completed Year &lt; input year, with length of stretch per road and total length</p>
+      <h1>Extract by Completed Year (Equal)</h1>
+      <p class="tagline">List data where Completed Year = input year, with length of stretch per road and total length</p>
       <div class="nav-links">
         <a href="index.html" class="nav-link">← Query Analyzer</a>
-        <a href="equal-year.html" class="nav-link">Extract by Completed Year (Equal) →</a>
+        <a href="extract.html" class="nav-link">Extract by Completed Year (<) →</a>
       </div>
     </header>
 
@@ -33,7 +33,7 @@
           </div>
         </div>
         <div class="year-row">
-          <label for="yearInput">Completed Year &lt;</label>
+          <label for="yearInput">Completed Year =</label>
           <input type="number" id="yearInput" class="year-input" placeholder="e.g. 2020" min="1900" max="2100" value="2020" />
         </div>
         <div id="loadStatus" class="load-status"></div>
@@ -46,7 +46,7 @@
         </div>
 
         <div id="summaryPanel" class="panel active">
-          <h3>Length of stretch per road (Completed Year &lt; <span id="yearLabel">—</span>)</h3>
+          <h3>Length of stretch per road (Completed Year = <span id="yearLabel">—</span>)</h3>
           <div id="summaryOutput" class="data-output">
             <p class="hint">Load a CSV and click Extract.</p>
           </div>
@@ -66,6 +66,6 @@
       </section>
     </main>
   </div>
-  <script src="extract.js"></script>
+  <script src="equal-year.js"></script>
 </body>
 </html>
